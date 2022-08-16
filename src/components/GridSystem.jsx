@@ -21,8 +21,8 @@ const GridSystem = () => {
                 <Col style={{background: 'red'}}>1 of 2</Col>
             </Row>
 
-            <Row lg={3}>
-                <Col style={{background: 'red'}}>1 of 3</Col>
+            <Row>
+                <Col xs={2} style={{background: 'red'}}>1 of 3</Col>
                 <Col style={{background: 'yellow'}}>2 of 3</Col>
                 <Col style={{background: 'green'}}>3 of 3</Col>
             </Row>
@@ -32,13 +32,11 @@ const GridSystem = () => {
         
         <Container>
             <Row xs={1} md={2} lg={3}>
-                <Col style={{background: 'red'}}>1 of 3</Col>
+                <Col xs={1} style={{background: 'red'}}>1 of 3</Col>
                 <Col style={{background: 'yellow'}}>2 of 3</Col>
                 <Col style={{background: 'green'}}>3 of 3</Col>
             </Row>
         </Container>
-
-
     </div>
     )
 }
