@@ -5,8 +5,6 @@ const Forms = () => {
     return (
         <div>
             <h1>Belajaran bikin Form pake react bootstrap</h1>
-            <hr />
-            <hr />
 
             <Container>
                 <Form>
